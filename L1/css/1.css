@@ -6,3 +6,10 @@ body{
 html{
     height: 100%;
 }
+
+@keyframes miss {
+    from{opacity: 0}
+    to{opacity: 100}
+}
+
+h2,p{animation: 2s infinite;}
