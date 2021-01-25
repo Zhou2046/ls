@@ -12,4 +12,4 @@ html{
     to{opacity: 100}
 }
 
-h2,p{animation: 2s infinite;}
+h2,p{animation: miss 2s infinite;}
