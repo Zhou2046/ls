@@ -1,0 +1,53 @@
+page{
+    font-size: 100px
+}
+
+#chun{
+    background: darkseagreen;
+    animation: chun 10s infinite;
+}
+
+#xia{
+    background: green;
+    animation: xia 10s infinite;
+}
+
+#qiu{
+    background: coral;
+    animation: qiu 10s infinite;
+}
+
+#dong{
+    background: azure;
+    animation: dong 10s infinite;
+}
+
+@keyframes chun {
+    0%{opacity: 0}
+    20%{opacity: 100}
+    40%{opacity: 0}
+    100%{opacity: 0}
+}
+
+@keyframes xia {
+    0%{opacity: 0}
+    20%{opacity: 0}
+    40%{opacity: 100}
+    60%{opacity: 0}
+    100%{opacity: 0}
+}
+
+@keyframes qiu {
+    0%{opacity: 0}
+    40%{opacity: 0}
+    60%{opacity: 100}
+    80%{opacity: 0}
+    100%{opacity: 0}
+}
+
+@keyframes dong {
+    0%{opacity: 0}
+    60%{opacity: 0}
+    80%{opacity: 100}
+    100%{opacity: 0}
+}
