@@ -13,5 +13,6 @@ html{
 }
 
 h2,p{
+
     animation: miss 1s infinite;
 }
