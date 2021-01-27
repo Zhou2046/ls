@@ -15,7 +15,8 @@ page{
 }
 
 #chun{
-    background: darkseagreen;
+    background-image: url("../img/2.jpg");
+    background-size: 100% 100%;
     animation: chun 10s infinite;
 }
 
@@ -33,6 +34,19 @@ page{
     background: azure;
     animation: dong 10s infinite;
 }
+
+#zhen{
+    font-size: 100px;
+    display: block;
+    animation: zhen 10s infinite;
+}
+
+
+
+
+
+
+
 
 @keyframes chun {
     0%{opacity: 0}
@@ -61,5 +75,14 @@ page{
     0%{opacity: 0}
     60%{opacity: 0}
     80%{opacity: 100}
+    100%{opacity: 0}
+}
+
+@keyframes zhen {
+    0%{opacity: 0}
+    60%{opacity: 0}
+    70%{opacity: 0}
+    80%{opacity: 100}
+    90%{opacity: 0}
     100%{opacity: 0}
 }
