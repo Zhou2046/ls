@@ -31,7 +31,8 @@ page{
 }
 
 #dong{
-    background: azure;
+    background-image: url("../img/3.jpg");
+    background-size: 100% 100%;
     animation: dong 10s infinite;
 }
 
