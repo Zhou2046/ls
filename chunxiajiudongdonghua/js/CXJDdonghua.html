@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <title>春夏秋冬四季动画</title>
     <link rel="stylesheet" type="text/css" href="../css/jijie.css">
+    <script>
+        function autoPlay(src) {
+            const audio = new Audio();
+            // 该元素用来在页面上控制音乐的播放和暂停
+            const musicEle = document.querySelector("#music")
+            audio.src = src;
+            audio.preload = "auto"
+            let played = false;
+
+        }
+    </script>
 </head>
 <body>
     <page id="chun">春</page>
@@ -12,5 +23,8 @@
     <page id="dong">冬
     <span id="zhen">贞下起元</span>
     </page>
+
+    <audio src="../music/二十二桥枫别雨.mp3"  controls="controls" autoplay="autoplay" loop="loop">
+    </audio>
 </body>
 </html>
